@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="100%" height="100%">
+  <defs>
+    <filter id="shadow3" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Admin Dark Background -->
+  <rect width="1200" height="700" fill="#0b1120"/>
+
+  <!-- Top Admin Navbar -->
+  <rect width="1200" height="60" fill="#030712" filter="url(#shadow3)"/>
+  <rect x="25" y="14" width="32" height="32" rx="8" fill="#f59e0b"/>
+  <text x="41" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="16" fill="#030712" text-anchor="middle">🛡</text>
+  <text x="68" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="18" fill="#ffffff">EduSphere</text>
+  <rect x="165" y="21" width="95" height="20" rx="4" fill="#78350f"/>
+  <text x="212" y="35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="10" fill="#fde68a" text-anchor="middle">ADMIN PORTAL</text>
+
+  <!-- User info right -->
+  <text x="1110" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="13" fill="#cbd5e1" text-anchor="end">System Administrator &bull; Sign Out</text>
+
+  <!-- Sidebar (Left 220px) -->
+  <g transform="translate(25, 80)">
+    <rect width="210" height="595" rx="16" fill="#030712" filter="url(#shadow3)"/>
+    
+    <!-- Nav Active Item -->
+    <rect x="12" y="20" width="186" height="40" rx="10" fill="#f59e0b"/>
+    <text x="30" y="45" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="13" fill="#030712">📊 Dashboard</text>
+
+    <!-- Nav Items -->
+    <text x="30" y="90" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="13" fill="#94a3b8">📚 Manage Courses</text>
+    <text x="30" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="13" fill="#94a3b8">⏳ Pending Approvals</text>
+    <text x="30" y="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="13" fill="#94a3b8">🏷 Categories</text>
+    <text x="30" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="13" fill="#94a3b8">💳 Orders &amp; Payments</text>
+    <text x="30" y="250" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="13" fill="#94a3b8">👥 Manage Users</text>
+    <text x="30" y="290" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="13" fill="#94a3b8">🎓 Instructors</text>
+  </g>
+
+  <!-- Main Content (Right 915px) -->
+  <g transform="translate(260, 80)">
+    <!-- Header -->
+    <text x="0" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="22" fill="#ffffff">System Control Center</text>
+    <text x="0" y="45" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748b">Real-time platform financial telemetry, course approvals, and user governance</text>
+
+    <!-- 4 KPI Cards -->
+    <g transform="translate(0, 65)">
+      <!-- KPI 1: Gross Sales -->
+      <rect x="0" y="0" width="215" height="100" rx="14" fill="#030712" filter="url(#shadow3)"/>
+      <text x="20" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="11" fill="#64748b">GROSS SALES</text>
+      <text x="20" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="24" fill="#34d399">$299.98</text>
+      <text x="20" y="85" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#64748b">Total volume processed</text>
+
+      <!-- KPI 2: Net Margin -->
+      <rect x="233" y="0" width="215" height="100" rx="14" fill="#030712" filter="url(#shadow3)"/>
+      <text x="253" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="11" fill="#64748b">PLATFORM NET (20%)</text>
+      <text x="253" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="24" fill="#fbbf24">$60.00</text>
+      <text x="253" y="85" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#fbbf24">Platform margin retained</text>
+
+      <!-- KPI 3: Total Enrollments -->
+      <rect x="466" y="0" width="215" height="100" rx="14" fill="#030712" filter="url(#shadow3)"/>
+      <text x="486" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="11" fill="#64748b">TOTAL ENROLLMENTS</text>
+      <text x="486" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="24" fill="#38bdf8">14</text>
+      <text x="486" y="85" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#64748b">Active &amp; completed</text>
+
+      <!-- KPI 4: Users -->
+      <rect x="700" y="0" width="215" height="100" rx="14" fill="#030712" filter="url(#shadow3)"/>
+      <text x="720" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="11" fill="#64748b">PLATFORM USERS</text>
+      <text x="720" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="24" fill="#c084fc">6</text>
+      <text x="720" y="85" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#64748b">3 Students &bull; 2 Instructors</text>
+    </g>
+
+    <!-- Monthly Chart Area -->
+    <g transform="translate(0, 185)">
+      <rect width="915" height="200" rx="16" fill="#030712" filter="url(#shadow3)"/>
+      <text x="25" y="35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="14" fill="#ffffff">Monthly Platform Enrollment Trends</text>
+      
+      <!-- Chart Curve -->
+      <path d="M 50 150 Q 200 130 350 110 T 600 70 T 860 40 L 860 160 L 50 160 Z" fill="#6366f1" fill-opacity="0.2"/>
+      <path d="M 50 150 Q 200 130 350 110 T 600 70 T 860 40" fill="none" stroke="#818cf8" stroke-width="3"/>
+      
+      <!-- Axis labels -->
+      <text x="50" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#64748b">Jan 2026</text>
+      <text x="320" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#64748b">Apr 2026</text>
+      <text x="590" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#64748b">Jul 2026</text>
+      <text x="840" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#64748b">Nov 2026</text>
+    </g>
+
+    <!-- Recent Users Table -->
+    <g transform="translate(0, 405)">
+      <rect width="915" height="190" rx="16" fill="#030712" filter="url(#shadow3)"/>
+      <text x="25" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="14" fill="#ffffff">Recently Registered Accounts</text>
+      <line x1="25" y1="45" x2="890" y2="45" stroke="#1e293b" stroke-width="1"/>
+      
+      <!-- Row 1 -->
+      <text x="25" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="12" fill="#ffffff">System Administrator</text>
+      <text x="250" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748b">admin@edusphere.com</text>
+      <rect x="520" y="58" width="60" height="18" rx="4" fill="#78350f"/>
+      <text x="550" y="71" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="9" fill="#fde68a" text-anchor="middle">Admin</text>
+      <text x="850" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="11" fill="#34d399" text-anchor="end">Active</text>
+
+      <!-- Row 2 -->
+      <text x="25" y="110" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="12" fill="#ffffff">Senior Instructor</text>
+      <text x="250" y="110" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748b">instructor@edusphere.com</text>
+      <rect x="520" y="98" width="70" height="18" rx="4" fill="#312e81"/>
+      <text x="555" y="111" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="9" fill="#c7d2fe" text-anchor="middle">Instructor</text>
+      <text x="850" y="110" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="11" fill="#34d399" text-anchor="end">Active</text>
+
+      <!-- Row 3 -->
+      <text x="25" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="12" fill="#ffffff">Enterprise Student</text>
+      <text x="250" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748b">student@edusphere.com</text>
+      <rect x="520" y="138" width="60" height="18" rx="4" fill="#1e293b"/>
+      <text x="550" y="151" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="9" fill="#94a3b8" text-anchor="middle">Student</text>
+      <text x="850" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="11" fill="#34d399" text-anchor="end">Active</text>
+    </g>
+  </g>
+</svg>
+

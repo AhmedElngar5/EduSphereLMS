@@ -1,0 +1,75 @@
+## --------------------------------------------------
+## .NET / C# / Visual Studio / JetBrains Rider
+## --------------------------------------------------
+bin/
+obj/
+out/
+publish/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+.vs/
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.DotSettings.user
+
+# Build and Test Results
+TestResults/
+[Bb]uild[Ll]og.*
+*.visualstudio.g.props
+*.visualstudio.g.targets
+
+# User-specific secrets & configuration
+appsettings*.local.json
+secrets.json
+
+# Local database files
+*.mdf
+*.ldf
+
+# Uploaded media assets in development
+src/EduSphere.Api/wwwroot/uploads/*
+!src/EduSphere.Api/wwwroot/uploads/.gitkeep
+uploads/
+
+## --------------------------------------------------
+## Node / Frontend / Vite
+## --------------------------------------------------
+node_modules/
+.pnp
+.pnp.js
+dist/
+dist-ssr/
+build/
+*.tsbuildinfo
+
+# Frontend Environment Variables (keep .env.example)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+!frontend/.env.example
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log

@@ -1,0 +1,12 @@
+{
+  "name": "edusphere-lms",
+  "version": "1.0.0",
+  "private": true,
+  "description": "EduSphere LMS - Enterprise Learning Management System",
+  "scripts": {
+    "build": "npm run build --prefix frontend",
+    "dev": "npm run dev --prefix frontend",
+    "lint": "npm run lint --prefix frontend"
+  }
+}
+

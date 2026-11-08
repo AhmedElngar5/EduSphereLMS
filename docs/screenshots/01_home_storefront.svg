@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stopColor="#0f172a"/>
+      <stop offset="100%" stopColor="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="heroGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stopColor="#4f46e5"/>
+      <stop offset="100%" stopColor="#7c3aed"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="700" fill="#f8fafc"/>
+
+  <!-- Top Navbar -->
+  <rect width="1200" height="70" fill="#ffffff" filter="url(#shadow)"/>
+  <rect x="60" y="18" width="36" height="36" rx="10" fill="#4f46e5"/>
+  <text x="78" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="18" fill="#ffffff" text-anchor="middle">E</text>
+  <text x="108" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="20" fill="#0f172a">EduSphere</text>
+  <rect x="205" y="27" width="34" height="18" rx="4" fill="#e0e7ff"/>
+  <text x="222" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="9" fill="#4338ca" text-anchor="middle">LMS</text>
+
+  <!-- Nav links -->
+  <text x="280" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="14" fill="#475569">Explore Courses</text>
+  <text x="410" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="14" fill="#475569">About</text>
+  <text x="475" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="14" fill="#475569">Verify Certificate</text>
+
+  <!-- Search Bar -->
+  <rect x="620" y="16" width="340" height="38" rx="19" fill="#f1f5f9"/>
+  <text x="655" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#94a3b8">Search courses, skills, instructors...</text>
+
+  <!-- Auth Buttons -->
+  <rect x="990" y="18" width="70" height="36" rx="10" fill="none"/>
+  <text x="1025" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="13" fill="#334155" text-anchor="middle">Log In</text>
+  <rect x="1070" y="18" width="90" height="36" rx="10" fill="#4f46e5"/>
+  <text x="1115" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="13" fill="#ffffff" text-anchor="middle">Join Free</text>
+
+  <!-- Hero Banner -->
+  <g transform="translate(60, 105)">
+    <rect width="1080" height="280" rx="24" fill="url(#heroGrad)" filter="url(#shadow)"/>
+    <text x="60" y="60" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="12" fill="#c7d2fe" letter-spacing="1">ENTERPRISE LEARNING PLATFORM</text>
+    <text x="60" y="110" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="34" fill="#ffffff">Master Modern Engineering</text>
+    <text x="60" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="34" fill="#ffffff">&amp; Cloud Architecture</text>
+    <text x="60" y="190" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" fill="#e0e7ff">Industry-aligned curriculums from senior architects with verifiable credentials.</text>
+
+    <rect x="60" y="215" width="160" height="42" rx="12" fill="#ffffff"/>
+    <text x="140" y="241" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="14" fill="#4338ca" text-anchor="middle">Explore Catalog →</text>
+  </g>
+
+  <!-- Featured Course Cards -->
+  <text x="60" y="435" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="22" fill="#0f172a">Featured Masterclasses</text>
+
+  <!-- Card 1 -->
+  <g transform="translate(60, 460)">
+    <rect width="340" height="200" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <rect width="340" height="85" rx="16" fill="#0284c7"/>
+    <text x="20" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="18" fill="#ffffff">Full-Stack .NET 10 &amp; React</text>
+    <text x="20" y="115" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="14" fill="#0f172a">Enterprise SaaS Architecture</text>
+    <text x="20" y="135" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748b">By Sarah Jenkins &bull; ★ 4.9 (128 reviews)</text>
+    <text x="20" y="175" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="16" fill="#059669">$99.99</text>
+    <rect x="230" y="152" width="90" height="32" rx="8" fill="#4f46e5"/>
+    <text x="275" y="173" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="12" fill="#ffffff" text-anchor="middle">View Course</text>
+  </g>
+
+  <!-- Card 2 -->
+  <g transform="translate(430, 460)">
+    <rect width="340" height="200" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <rect width="340" height="85" rx="16" fill="#7c3aed"/>
+    <text x="20" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="18" fill="#ffffff">Cloud Microservices</text>
+    <text x="20" y="115" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="14" fill="#0f172a">Distributed Systems in Go &amp; K8s</text>
+    <text x="20" y="135" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748b">By Alex Rivera &bull; ★ 4.8 (94 reviews)</text>
+    <text x="20" y="175" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="16" fill="#059669">$149.99</text>
+    <rect x="230" y="152" width="90" height="32" rx="8" fill="#4f46e5"/>
+    <text x="275" y="173" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="12" fill="#ffffff" text-anchor="middle">View Course</text>
+  </g>
+
+  <!-- Card 3 -->
+  <g transform="translate(800, 460)">
+    <rect width="340" height="200" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <rect width="340" height="85" rx="16" fill="#059669"/>
+    <text x="20" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="18" fill="#ffffff">Intro to Clean Architecture</text>
+    <text x="20" y="115" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="14" fill="#0f172a">Domain Modeling Primer</text>
+    <text x="20" y="135" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748b">By David Miller &bull; ★ 5.0 (65 reviews)</text>
+    <text x="20" y="175" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="16" fill="#0284c7">Free</text>
+    <rect x="230" y="152" width="90" height="32" rx="8" fill="#4f46e5"/>
+    <text x="275" y="173" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="12" fill="#ffffff" text-anchor="middle">Enroll Free</text>
+  </g>
+</svg>
+
